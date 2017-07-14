@@ -1,0 +1,11 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "A CucumberJS sandbox test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Jain Waldrip",
+  "license": "MIT"
+}
