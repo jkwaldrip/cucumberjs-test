@@ -9,6 +9,7 @@
   "author": "Jain Waldrip",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.1.0",
     "cucumber": "^2.3.1"
   }
 }
