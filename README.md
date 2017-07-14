@@ -2,7 +2,7 @@
 
 A simple sandbox test for CucumberJS
 
-Usage:
+### Usage
 
     git clone https://github.com/jkwaldrip/cucumberjs-test.git
     npm install
