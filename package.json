@@ -7,5 +7,8 @@
     "test": "npm test"
   },
   "author": "Jain Waldrip",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cucumber": "^2.3.1"
+  }
 }
