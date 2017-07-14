@@ -13,6 +13,10 @@ defineSupportCode(function({Then,When}) {
     result["outcome"] = parseInt(intFirst) + parseInt(intSecond);
   });
 
+  When(/^I subtract (\d) from (\d)$/, function(intFirst, intSecond) {
+    result["outcome"] = parseInt(intSecond) - parseInt(intFirst);
+  });
+
   Then(/^the result is (\d)$/, function(intExpected) {
     expect(result.outcome).to.equal(parseInt(intExpected));
   });
