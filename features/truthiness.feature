@@ -1,9 +1,5 @@
 Feature: Truthiness
 
   Scenario: True Things are True
-    When I say "true"
-    Then it is truthy
-
-  Scenario: False Things are False
-    When I say "false"
-    Then it is falsey
+    When I add 1 and 1
+    Then the result is 2
