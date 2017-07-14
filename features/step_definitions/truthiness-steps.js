@@ -20,4 +20,12 @@ defineSupportCode(function({Then,When}) {
   Then(/^the result is (\d)$/, function(intExpected) {
     expect(result.outcome).to.equal(parseInt(intExpected));
   });
+
+  Then(/^the result is truthy/, function() {
+    expect(!!(result.outcome)).to.be.true;
+  });
+
+  Then(/^the result is false?y?/, function() {
+    expect(!!(result.outcome)).to.be.false;
+  });
 });
