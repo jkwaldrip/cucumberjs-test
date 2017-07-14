@@ -4,7 +4,7 @@
 
 "use strict";
 
-var {defineSupportCode} = require("cucumber")
+var {defineSupportCode} = require("cucumber");
 var result = {};
 
 defineSupportCode(function({Then,When}) {
